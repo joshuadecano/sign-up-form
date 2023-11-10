@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+.container {
+    display: flex;
+}
+
 @font-face {
     font-family: norse-bold;
     src: url(./fonts/Norse-Bold.otf);
@@ -21,6 +25,7 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     background: white;
     height: 100vh;
     flex: auto;
@@ -58,4 +63,16 @@ body {
     margin: 0px;
     padding: 0px;
     margin-top: .2em;
+}
+
+.topbox {
+    background-color: aqua;
+}
+
+.centerbox {
+    background-color: bisque;
+}
+
+.botbox {
+    background-color: honeydew;
 }
