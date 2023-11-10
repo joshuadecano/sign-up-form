@@ -27,61 +27,35 @@ body {
 }
 
 .sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 0 1 auto;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-#side-bg {
-    position: fixed;
-    height: 100vh;
-    z-index: -1;
-}
-
-.credit {
-    color: white;
-    align-self: center;
-    text-overflow: ellipsis;
-    position: relative;
-    bottom: 0;
-    font-size: 1em;
-    text-align: center;
-}
-
-.logobg {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: rgba(0,0,0,.3);
-    margin-top: 20vh;
-    justify-content: center;
+    width: 40vw;
+    background-image: url(./images/chirayu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .logobox {
     display: flex;
-    flex: auto;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    position: relative;
+    height: auto;
+    background-color: rgba(0,0,0,.3);
     color: white;
-    height: fit-content;
-    width: fit-content;
-    justify-content: space-between;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 2.5em;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    top: 20vh;
+    padding: 15px 0;
 }
 
 #odin {
-    height: 7em;
+    height: 10vh;
 }
 
 .logobox p {
-    display: flex;
-    flex: auto;
     font-family: norse-bold;
-    font-size: 7em;
-    margin: auto;
-
+    font-size: 4em;
+    margin: 0px;
+    padding: 0px;
+    margin-top: .2em;
 }
