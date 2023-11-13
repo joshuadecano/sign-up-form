@@ -28,7 +28,7 @@ body {
     flex-wrap: nowrap;
     background: white;
     height: 100vh;
-    flex: auto;
+    width: 60vw;
 }
 
 .sidebar {
@@ -66,13 +66,19 @@ body {
 }
 
 .topbox {
+    display: flex;
     background-color: aqua;
+    flex: auto;
 }
 
 .centerbox {
+    display: flex;
     background-color: bisque;
+    flex: auto;
 }
 
 .botbox {
+    display: flex;
     background-color: honeydew;
+    flex: auto;
 }
