@@ -2,6 +2,10 @@
     --test: 1px;
 }
 
+* {
+    font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+}
+
 body {
     display: flex;
     justify-content: space-between;
@@ -49,7 +53,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1vw;
-    top: 20vh;
+    top: 25vh;
     padding: 15px 0;
 }
 
@@ -67,18 +71,25 @@ body {
 
 .topbox {
     display: flex;
-    background-color: aqua;
-    flex: auto;
+    flex: 0 1 35%;
+    font-weight: 550;
+    justify-content: flex-end;
+    padding: 2.2vh 2.2vw;
+    padding-right: 10vw;
+}
+
+.topbox p {
+    display: inline-block;
+    align-self: flex-end;
 }
 
 .centerbox {
     display: flex;
-    background-color: bisque;
-    flex: auto;
+    box-shadow: 3px 2px 10px lightgray;
+    flex: 0 1 30%;
 }
 
 .botbox {
     display: flex;
-    background-color: honeydew;
     flex: auto;
 }
