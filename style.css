@@ -1,9 +1,14 @@
-
 body {
     display: flex;
     justify-content: space-between;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: 600;
 }
 
 .container {
@@ -94,6 +99,8 @@ body {
     display: flex;
     flex: auto;
     padding: 4vh 0;
+    gap: 8px;
+    align-items: center;
 }
 
 form {
