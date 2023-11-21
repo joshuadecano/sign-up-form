@@ -1,10 +1,19 @@
-// const sidebar = document.querySelector('.sidebar');
-// const logobg = document.querySelector('.logobg');
-// const credit = document.querySelector('.credit');
-// const sidebg = document.querySelector('#side-bg');
-// const logobox = document.querySelector('.logobox');
+const centerBox = document.querySelector('.centerBox');
+const forms = document.querySelector('.formc');
 
-// sidebar.style.width = sidebg.style.width;
-// logobg.style.width = sidebg.style.width;
-// credit.style.width = sidebg.style.width;
-// logobox.style.width = sidebg.style.width;
+//const pass = document.querySelector('input[name="password"]')
+//const passConf = document.querySelector('input[name="confPass"]')
+const error = document.querySelectorAll('.error')
+
+
+function checkPassword() {
+    const test = document.querySelector('#confPass');
+    if (document.getElementById('pass').value != 
+    document.getElementById('confPass').value) {
+        test.classList.add("error")
+    }
+    else {
+        //document.getElementById('confPass').style.borderColor = 'red';
+        test.classList.remove("error")
+    }
+}
